@@ -3,7 +3,8 @@ import IntroText from './components/IntroTextComponent';
 import { NutritionComponent } from './components/NutritionComponent';
 import { OrderedListComponent } from './components/OrderedListComponent';
 import { UnorderedListComponent } from './components/UnorderedListComponent';
-import { Box, Container, Card, CardContent, Typography } from '@mui/material';
+import ImageComponent from './components/ImageComponent';
+import { Box, Container, Card, CardContent } from '@mui/material';
 
 function App() {
   const title = 'Simple Omelette Recipe';
@@ -48,6 +49,7 @@ function App() {
       <Container maxWidth="md" sx={{ display: 'flex', justifyContent: 'center' }}>
         <Card sx={{ borderRadius: 4 }}>
           <CardContent> 
+          <ImageComponent alt="Omelette Recipe" />
           <IntroText title={title} content={content} />
             <Card sx={{ backgroundColor: '#fff0f5', borderRadius: 2 }}>
               <CardContent>

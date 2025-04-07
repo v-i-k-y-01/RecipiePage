@@ -7,7 +7,7 @@ interface Props{
 function  IntroText ({title,content}:Props){
     return(
         <>
-         <Typography sx={{
+        <Typography sx={{
               fontFamily: 'Young Serif',
               fontSize: 20,
               fontWeight: 'bold',
@@ -20,4 +20,4 @@ function  IntroText ({title,content}:Props){
     );
 }
 
-export default IntroText ;
+export default IntroText;
