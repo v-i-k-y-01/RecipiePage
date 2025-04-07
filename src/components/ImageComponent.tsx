@@ -9,7 +9,7 @@ interface Props {
 function ImageComponent({ src = ThumbNail, alt, style }: Props) {
     return (
         <img 
-            src={src} 
+            src={src}
             alt={alt} 
             style={{ 
                 width: '100%', 
